@@ -1,0 +1,12 @@
+using System;
+using MathOperations;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        MathLib.Multiply(4.5, 2);
+
+        MathLib.MultiplyThree(1.5, 2, 3);
+    }
+}
